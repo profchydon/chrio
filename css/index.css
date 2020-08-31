@@ -289,4 +289,14 @@ i.fa.fa-long-arrow-right.yellow-arrow {
     section.contact-us {
         padding: 30px 20px;
     }
+    img.banner-image.img-responsive {
+        position: relative;
+        bottom: 140px;
+        right: 65px;
+        width: 390px;
+    }
+
+    img.img-responsive.partner-logo {
+        width: 75px;
+    }
 }
