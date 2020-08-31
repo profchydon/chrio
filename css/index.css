@@ -252,7 +252,7 @@ i.fa.fa-long-arrow-right.yellow-arrow {
         /* text-align: center; */
     }
     .landing-banner {
-        padding: 140px 20px;
+        padding: 150px 0px;
         height: 450px;
         /* text-align: center; */
     }
@@ -294,9 +294,18 @@ i.fa.fa-long-arrow-right.yellow-arrow {
         bottom: 140px;
         right: 65px;
         width: 390px;
+        display: none;
     }
 
     img.img-responsive.partner-logo {
         width: 75px;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        padding-top: 30px;
+    }
+
+    img.logo {
+        width: 105px;
     }
 }
