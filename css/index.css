@@ -246,6 +246,22 @@ i.fa.fa-long-arrow-right.yellow-arrow {
   font-size: 16px;
 }
 
+@media (max-width: 1280px){
+    img.banner-image.img-responsive {
+        position: relative;
+        bottom: 610px;
+        right: 120px;
+        width: 1300px;
+    }
+    .container {
+        margin: 0px 30px;
+    }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+
 @media (max-width: 768px) {
   .container {
     margin: 0px;
