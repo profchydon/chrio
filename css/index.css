@@ -274,7 +274,9 @@ i.fa.fa-long-arrow-right.yellow-arrow {
   .landing-banner {
     padding: 150px 0px;
     height: 450px;
-    /* text-align: center; */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .landing-p {
     margin: 0px;
