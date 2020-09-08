@@ -162,6 +162,10 @@ i.fa.fa-long-arrow-right {
   font-family: "Playfair Display", serif;
 }
 
+#partner-mobile{
+  display: none;
+}
+
 .learn-more {
   font-size: 22px;
   color: #000;
@@ -475,6 +479,8 @@ img.img-responsive.footer-logo {
     font-size: 16px;
     color: #000;
     font-weight: 600;
+    position: relative;
+    top: -20px;
 }
 
   h2.landing-h2 {
@@ -504,6 +510,11 @@ img.img-responsive.footer-logo {
     width: 390px;
     display: none;
   }
+
+  .row.footer-row {
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+}
 
   img.img-responsive.partner-logo {
     width: 75px;
