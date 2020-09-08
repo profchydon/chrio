@@ -208,6 +208,14 @@ img.img-responsive.strategy-icons.center-box {
   margin-bottom: 50px;
 }
 
+#footer-web{
+  display: block;
+}
+
+#footer-mobile{
+  display: none;
+}
+
 h5.strategy-h5 {
     font-size: 20px;
     font-weight: 600;
@@ -410,10 +418,28 @@ img.img-responsive.footer-logo {
   bottom: 156px;
   width: 230px;
 }
+#footer-mobile{
+  display: block;
+}
+#footer-web{
+  display: none;
+}
 h5.strategy-h5 {
   font-size: 18px;
   font-weight: 600;
   padding: 0px 41px;
+}
+.footer-right {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  left: 0px;
+}
+img.img-responsive.footer-logo {
+  position: relative;
+  left: -40px;
+  width: 80px;
 }
   .container {
     margin: 0px;
