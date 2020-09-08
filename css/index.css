@@ -525,4 +525,8 @@ img.img-responsive.footer-logo {
     left: 170px;
     top: 10px;
   }
+
+  .strategy-box-holder {
+    margin: 20px 0px;
+}
 }
