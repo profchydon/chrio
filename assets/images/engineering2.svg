@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="157.982" height="157.981" viewBox="0 0 157.982 157.981">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#474747;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="_7-Digital_Art" transform="translate(1 1)">
+        <path id="Line_105" d="M0 0L123 0" class="cls-1" transform="translate(16.981 94.367)"/>
+        <path id="Path_2842" d="M41.691 156.982v-13.564h10.173l6.782-20.345H11.173A10.173 10.173 0 0 1 1 112.9V11.173A10.173 10.173 0 0 1 11.173 1h135.636a10.173 10.173 0 0 1 10.173 10.173V112.9a10.173 10.173 0 0 1-10.173 10.173H99.336l6.782 20.345h10.173v13.564" class="cls-1" transform="translate(-1 -1)"/>
+        <path id="Line_106" d="M0 0L89 0" class="cls-1" transform="translate(32.981 155.367)"/>
+        <path id="Line_107" d="M0 0L26 0" class="cls-1" transform="translate(65.981 142.367)"/>
+        <path id="Line_108" d="M26 0L0 0" class="cls-1" transform="translate(71.981 122.367)"/>
+        <path id="Path_2843" d="M23.955 19L7 25.782l16.955 6.782H118.9a3.391 3.391 0 0 0 3.391-3.391v-6.782A3.391 3.391 0 0 0 118.9 19z" class="cls-1" transform="translate(13.345 42.036)"/>
+        <path id="Line_109" d="M0 13L0 0" class="cls-1" transform="translate(115.981 61.367)"/>
+        <path id="Rectangle_1445" d="M0 0H14V14H0z" class="cls-1" transform="translate(18.981 20.367)"/>
+        <path id="Rectangle_1446" d="M0 0H13V14H0z" class="cls-1" transform="translate(121.981 20.367)"/>
+        <path id="Rectangle_1447" d="M0 0H13V14H0z" class="cls-1" transform="translate(71.981 20.367)"/>
+        <path id="Line_110" d="M0 0L39 0" class="cls-1" transform="translate(32.981 26.367)"/>
+        <path id="Line_111" d="M0 0L37 0" class="cls-1" transform="translate(84.981 26.367)"/>
+        <path id="Path_2844" d="M17 29.345v-6.781S17 9 30.564 9" class="cls-1" transform="translate(37.255 18.127)"/>
+        <path id="Path_2845" d="M40.564 29.345v-6.781S40.564 9 27 9" class="cls-1" transform="translate(61.164 18.127)"/>
+    </g>
+</svg>

@@ -106,10 +106,10 @@ h5 {
 
 .landing-p {
   margin: 0px;
-  font-size: 25px;
+  font-size: 26px;
     padding-right: 48px;
     margin: 20px 0px;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .landing-banner {
@@ -127,9 +127,11 @@ h5 {
 }
 
 footer {
-  background: #1a1a1a;
+  background: #474747;
   padding: 40px;
   color: #fff;
+  border-top: 1px solid #fff;
+  padding: 80px 0px;
 }
 
 .navbar-brand {
@@ -159,7 +161,7 @@ i.fa.fa-long-arrow-right {
 }
 
 .learn-more {
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #partner-mobile{
@@ -167,9 +169,31 @@ i.fa.fa-long-arrow-right {
 }
 
 .learn-more {
-  font-size: 22px;
+  font-size: 20px;
   color: #000;
-  font-weight: 600;
+  font-weight: 500;
+  border: 1px solid #000;
+  padding: 15px 20px;
+
+}
+
+.learn-more:hover {
+  text-decoration: none; 
+  background: #474747;
+  color: #ffe600;
+  transition: 0.4s; 
+}
+
+div#banner-div-7 {
+  z-index: 1;
+}
+.margin-contact {
+  margin-bottom: 50px;
+}
+
+i.fa.fa-chevron-right {
+  font-weight: 100;
+  margin-left: 15px;
 }
 
 i.fa.fa-plus-circle {
@@ -177,17 +201,27 @@ i.fa.fa-plus-circle {
 }
 
 h2.landing-h2 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 900;
 }
 
 .strategy-box-holder {
   text-align: center;
+  border-right: 1px solid #00000021;
+}
+
+.strategy-box-holder:last-child {
+  padding-left: 0px;
+  /* border-right: none; */
+}
+
+img.img-responsive.partner-logo {
+  width: 150px;
 }
 
 .strategy-box {
-  background: #f2f2f2;
-  padding: 50px;
+  /* background: #f2f2f2; */
+  padding: 50px 0px 0px 10px;
   /* box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15); */
   border-radius: 10px;
   margin: 20px 20px 20px 0px;
@@ -231,7 +265,7 @@ section.strategy-sectionn {
 }
 
 .contact-inner1 {
-  padding: 0px 50px 0px 0px;
+  /* padding: 0px 50px 0px 0px; */
 }
 
 .contact-inner2 {
@@ -240,11 +274,13 @@ section.strategy-sectionn {
 
 button.btn.btn-primary.contact-button {
   background: #ffe400;
-  border: 1px solid #f5db04;
+  border: 1px solid #ffe600;
+  border-radius: 0px;
   color: #000;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
-  padding: 10px 20px;
+  padding: 25px 50px;
+  height: 75px;
 }
 
 label {
@@ -258,7 +294,9 @@ label {
 }
 
 section.contact-us {
-  padding: 100px 0px;
+  padding: 70px 0px;
+  background: #474747;
+  color: #fff;
 }
 
 img.banner-image.img-responsive {
@@ -309,7 +347,11 @@ img.banner-image.img-responsive {
 
 section.partner-section {
   background: #ebebeb;
-  padding: 50px 0px;
+  padding: 20px 0px;
+}
+
+.partner-div {
+  padding-top: 80px;
 }
 
 .row.text-center.partner-row {
@@ -344,14 +386,26 @@ img.img-responsive.footer-logo {
 }
 
 .form-control {
-    font-size: 12px;
-    border: 1px solid #33333385;
-    height: 40px;
+  font-size: 18px;
+  border: 1px solid #33333385;
+  height: 75px;
+  border-radius: 0px;
+  padding: 15px;
+}
+
+.contact-outer {
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.contact-outer1 {
+  padding-left: 5px;
+  padding-bottom: 10px;
 }
 
 .footer-text {
   margin-top: 30px;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   font-weight: 100;
 }
@@ -363,7 +417,7 @@ img.img-responsive.footer-logo {
 
 #socials {
   color: #fff;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 @media (max-width: 1280px){
@@ -478,9 +532,9 @@ img.img-responsive.footer-logo {
   .learn-more {
     font-size: 16px;
     color: #000;
-    font-weight: 600;
+    font-weight: 500;
     position: relative;
-    top: -20px;
+    top: 25px;
 }
 
   h2.landing-h2 {
