@@ -100,13 +100,13 @@ h5 {
 }
 
 .landing-h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 900;
 }
 
 .landing-p {
   margin: 0px;
-  font-size: 26px;
+  font-size: 28px;
     padding-right: 48px;
     margin: 20px 0px;
     line-height: 40px;
@@ -124,6 +124,10 @@ h5 {
 
 .container {
   margin: 0px 100px;
+}
+
+.landing-p1 {
+  font-size: 20px;
 }
 
 footer {
@@ -201,8 +205,17 @@ i.fa.fa-plus-circle {
 }
 
 h2.landing-h2 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 900;
+}
+
+.learn-more.no-border {
+  border: none;
+  padding: 0px;
+}
+
+.section {
+  padding: 70px 0px !important;
 }
 
 .strategy-box-holder {
@@ -240,10 +253,14 @@ img.img-responsive.strategy-icons.center-box {
   margin: 20px;
 }
 
+img.img-responsive.man-img {
+  width: 500px;
+}
+
 .row.icon-row {
   width: 110%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 #footer-web{
@@ -261,7 +278,8 @@ h5.strategy-h5 {
 }
 
 section.strategy-sectionn {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    padding-top: 0px !important;
 }
 
 .contact-inner1 {
@@ -347,7 +365,7 @@ img.banner-image.img-responsive {
 
 section.partner-section {
   background: #ebebeb;
-  padding: 20px 0px;
+  padding: 20px 0px !important;
 }
 
 .partner-div {
@@ -413,6 +431,9 @@ img.img-responsive.footer-logo {
 .footer-text1 {
   margin: 0px;
   margin-bottom: 10px;
+  font-size: 18px;
+  text-align: right;
+  font-weight: 100;
 }
 
 #socials {
