@@ -461,8 +461,12 @@ img.img-responsive.footer-logo {
     .br-mobile-hidden{
         display: none;
     }
+    .strategy-box-holder {
+      border-right: none;
+  }
     .strategy-box {
-        margin: 20px 20px 20px 0px;
+        margin: none;
+        padding: none;
         max-width: 220px;
         min-width: 220px;
         min-height: 200px;
@@ -475,6 +479,9 @@ img.img-responsive.footer-logo {
     section.contact-us {
       padding: 0px !important;
   }
+  img.img-responsive.man-img {
+    width: 300px;
+}
   #circle1 {
     position: relative;
     bottom: 155px;
