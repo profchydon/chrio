@@ -611,8 +611,7 @@ img.img-responsive.footer-logo {
   }
   .row.icon-row {
     width: 100%;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    margin: 30px;
     margin-left: 0px;
     padding: 0px 35px;
   }
