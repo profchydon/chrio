@@ -490,7 +490,16 @@ img.img-responsive.footer-logo {
   }
   #footer-mobile {
     text-align: center !important;
+    padding: 10px;
   }
+  .footer-text1 {
+    font-size: 16px;
+    text-align: center;
+}
+.footer-text {
+  font-size: 16px;
+  text-align: center;
+}
   .margin-contact {
     margin-bottom: 20px;
   }
@@ -534,17 +543,25 @@ img.img-responsive.footer-logo {
     display: none;
   }
   h5.strategy-h5 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     padding: 0px 41px;
   }
+  .landing-p1 {
+    font-size: 16px;
+}
   .footer-right {
     text-align: center;
     font-size: 14px;
     font-weight: 400;
     position: relative;
     left: 0px;
+    margin-top: 20px;
   }
+  #socials {
+    color: #fff;
+    font-size: 20px;
+}
   img.img-responsive.footer-logo {
     position: relative;
     left: -40px;
