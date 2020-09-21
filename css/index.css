@@ -765,7 +765,7 @@ img.img-responsive.footer-logo {
   }
 
   #nav-icon3 {
-    left: 130px;
+    left: 100%;
     top: 10px;
   }
 
@@ -784,7 +784,7 @@ img.img-responsive.footer-logo {
   }
 
   img.img-responsive.man-img {
-    width: 315px;
+    width: 300px !important;
     margin-bottom: 20px;
   }
 }
@@ -805,6 +805,73 @@ img.img-responsive.footer-logo {
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 820px) and (-webkit-min-device-pixel-ratio: 2) {
+  .landing-h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+img.banner-image.img-responsive {
+  position: relative;
+  bottom: 400px;
+  right: 70px;
+  width: 800px;
+}
+.landing-p {
+  margin: 0px;
+  font-size: 18px;
+  padding-right: 80px;
+  margin: 20px 0px;
+  line-height: 30px;
+}
+.landing-banner {
+  height: 500px;
+}
+.learn-more {
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+  border: 1px solid #000;
+  padding: 10px 15px;
+}
+h2.landing-h2 {
+  font-size: 35px;
+  font-weight: 900;
+}
+h5.strategy-h5 {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0px;
+}
+.strategy-box-holder {
+  text-align: left;
+  border-right: 1px solid #00000021;
+}
+img.img-responsive.strategy-icons.center-box {
+  width: 70px;
+  margin: 20px;
+}
+img.img-responsive.partner-logo {
+  width: 110px;
+}
+img.img-responsive.man-img {
+  width: 300px;
+}
+h2.landing-h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.navbar-brand {
+  position: relative;
+  left: 0%;
+}
+#nav-icon3 {
+  left: 270%;
+}
+}
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
