@@ -243,6 +243,7 @@
   </section>
 
   <section class="contact-us section">
+    <form action="action.php" method="post" id="contact-form"></form>
     <div class="container">
       <div class="row icon-row" id="contact-us-row">
 
@@ -261,44 +262,47 @@
             </p>
           </div>
         </div>
-        <div class="col-md-6 contact-outer">
-          <div class="contact-inner1">
-            <input type="text" class="form-control" name="name" id="name" placeholder="Full Name" />
+
+          <div class="col-md-6 contact-outer">
+            <div class="contact-inner1">
+              <input type="text" class="form-control" name="name" id="name" placeholder="Full Name" />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 contact-outer1">
-          <div class="contact-inner1">
-            <input type="text" class="form-control" name="email" id="email" aria-describedby="emailHelp"
-              placeholder="Email Address" />
+          <div class="col-md-6 contact-outer1">
+            <div class="contact-inner1">
+              <input type="text" class="form-control" name="email" id="email" aria-describedby="emailHelp"
+                placeholder="Email Address" />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 contact-outer">
-          <div class="contact-inner1">
-            <input type="text" class="form-control" name="company" id="company" aria-describedby="emailHelp"
-              placeholder="Name of Company" />
+          <div class="col-md-6 contact-outer">
+            <div class="contact-inner1">
+              <input type="text" class="form-control" name="company" id="company" aria-describedby="emailHelp"
+                placeholder="Name of Company" />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 contact-outer1">
-          <div class="contact-inner1">
-            <input type="text" class="form-control" name="message" id="message" aria-describedby="emailHelp"
-              placeholder="What would you like us to do for you?" />
+          <div class="col-md-6 contact-outer1">
+            <div class="contact-inner1">
+              <input type="text" class="form-control" name="message" id="message" aria-describedby="emailHelp"
+                placeholder="What would you like us to do for you?" />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 contact-outer">
-          <div class="contact-inner1">
-            <input type="text" class="form-control" name="country" id="country" aria-describedby="emailHelp"
-              placeholder="Country" />
+          <div class="col-md-6 contact-outer">
+            <div class="contact-inner1">
+              <input type="text" class="form-control" name="country" id="country" aria-describedby="emailHelp"
+                placeholder="Country" />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 contact-outer1">
-          <div class="contact-inner1">
-            <button type="submit" id="submit" class="btn btn-primary contact-button">
-              LET'S CREATE MAGIC
-            </button>
+          <div class="col-md-6 contact-outer1">
+            <div class="contact-inner1">
+              <button type="submit" id="submit" class="btn btn-primary contact-button">
+                LET'S CREATE MAGIC
+              </button>
+            </div>
           </div>
-        </div>
+        
       </div>
     </div>
+  </form>
   </section>
   <footer id="footer-web">
     <div class="container">
@@ -393,7 +397,7 @@
 
     $('#submit').on('click', function (e) {
 
-      e.preventDefault();
+      // e.preventDefault();
 
       var name = $("#name").val();
       var email = $("#email").val();

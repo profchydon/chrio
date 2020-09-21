@@ -6,12 +6,21 @@
     $message = htmlentities(strip_tags(addslashes(trim($_POST['message']))));
     $country = htmlentities(strip_tags(addslashes(trim($_POST['country']))));
 
-    $toEmail = "profchydon@gmail.com";
-    $mailHeaders = "From: " . $name . "<". $email .">\r\n";
-    if(mail($toEmail, "${name}", $message, $mailHeaders)) {
-        return $message = "Your contact information is received successfully.";
-        $type = "success";
-    }
+    // $toEmail = "profchydon@gmail.com";
+    // $mailHeaders = "From: " . $name . "<". $email .">\r\n";
+    // if(mail($toEmail, "${name}", $message, $mailHeaders)) {
+    //     return $message = "Your contact information is received successfully.";
+    //     $type = "success";
+    // }
+
+    $toEmail = 'profchydon@gmail.com';
+    $emailSubject = 'New email from your contant form';
+    $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
+
+    $bodyParagraphs = ["Name: {$name}", "Email: {$email}", "Company: {$company}", "Country: {$Country}", "Message:", $message];
+    $body = join(PHP_EOL, $bodyParagraphs);
+
+    mail($toEmail, $emailSubject, $body, $headers);
 
     // function submit($name, $email, $company, $message, $country) {
     //     $dsn = 'mysql:host=localhost;dbname=chrio';
