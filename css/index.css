@@ -1015,7 +1015,12 @@ img.img-responsive.footer-logo {
 }
 
 @media only screen and (min-device-width : 1201px) and (max-device-width : 1439px) {
-
+  img.banner-image.img-responsive {
+    position: relative;
+    bottom: 535px;
+    right: -55%;
+    width: 600px !important;
+}
   .section {
     padding-left: 50px !important;
     padding-right: 50px !important;
