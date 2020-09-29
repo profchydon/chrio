@@ -492,6 +492,12 @@ img.img-responsive.footer-logo {
 }
 
 @media (max-width: 768px) {
+  #strategy-div {
+    padding-top: 100px !important;
+}
+#navbar-brand {
+  top: -5px;
+}
   .br-mobile-hidden {
     display: none;
   }
