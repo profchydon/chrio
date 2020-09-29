@@ -1036,7 +1036,7 @@ img.img-responsive.footer-logo {
   img.banner-image.img-responsive {
     position: relative;
     bottom: 535px;
-    right: -55%;
+    right: -50%;
     width: 600px !important;
 }
   .section {
