@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;600;900&display=swap");
 
+.active-nav {
+  background: #ffe400 !important;
+}
+
+.active-brand {
+  top: -20px;
+}
+
+.strategy-div {
+  padding-top: 60px !important;
+}
+
 /* Hamburger menu */
 /* Icon 1 */
 section.partner-section {
@@ -1037,6 +1049,7 @@ img.img-responsive.footer-logo {
 
 #nav-icon3 {
   left: 93%;
+  top: 5px;
 }
 img.img-responsive.footer-logo {
   position: relative;
