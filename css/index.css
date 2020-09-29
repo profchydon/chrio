@@ -248,8 +248,8 @@ img.img-responsive.partner-logo {
   margin: 20px;
   max-width: 200px;
     min-width: 200px;
-    min-height: 200px;
-    max-height: 200px;
+    min-height: 185px;
+    max-height: 185px;
 }
 
 .strategy-box-holder:first-child {
@@ -257,7 +257,10 @@ img.img-responsive.partner-logo {
 }
 
 img.img-responsive.strategy-icons.center-box {
-  width: 100px;
+  max-width: 85px;
+  min-width: 85px;
+  max-height: 85px;
+  min-height: 85px;
   margin: 20px;
 }
 
@@ -461,9 +464,9 @@ img.img-responsive.footer-logo {
   img.banner-image.img-responsive {
     position: relative;
     bottom: 525px;
-    right: 80px;
-    width: 1250px;
-  }
+    right: -500px;
+    width: 591px;
+}
 
   .container {
     /* margin: 0px 30px; */
