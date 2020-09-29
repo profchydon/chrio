@@ -977,8 +977,19 @@ img.img-responsive.footer-logo {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-  /* Styles */
+@media only screen and (max-width : 360px) {
+  #nav-icon3 {
+    left: 50%;
+    top: 10px;
+}
+.strategy-box {
+  margin: none;
+  padding: none;
+  max-width: 190px !important;
+  min-width: 190px !important;
+  min-height: 160px !important;
+  max-height: 160px !important;
+}
 }
 
 
@@ -989,9 +1000,9 @@ img.img-responsive.footer-logo {
   }
   img.banner-image.img-responsive {
     position: relative;
-    bottom: 525px;
-    right: 5%;
-    width: 1250px;
+    bottom: 535px;
+    right: -55%;
+    width: 600px;
 }
 .navbar-brand {
   left: 3%;
