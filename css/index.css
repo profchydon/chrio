@@ -972,8 +972,13 @@ img.img-responsive.footer-logo {
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-  /* Styles */
+@media only screen and (max-width : 768px) {
+  img.banner-image.img-responsive {
+    position: relative;
+    bottom: 348px !important;
+    right: -45% !important;
+    width: 400px !important;
+  }
 }
 
 /* Smartphones (portrait) ----------- */
