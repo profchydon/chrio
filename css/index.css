@@ -1039,6 +1039,24 @@ img.img-responsive.footer-logo {
   }
 }
 
+@media only screen and (min-device-width: 1350px) and (max-device-width: 1439px) {
+  #nav-icon3 {
+    left: 105% !important;
+    top: 5px;
+}
+}
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1350px) {
+  #nav-icon3 {
+    left: 85% !important;
+    top: 5px;
+}
+.navbar-brand {
+  position: relative;
+  left: 0%;
+}
+}
+
 @media only screen and (min-device-width: 1201px) and (max-device-width: 1439px) {
   img.banner-image.img-responsive {
     position: relative;
