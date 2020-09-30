@@ -8,6 +8,10 @@
   top: -20px;
 }
 
+.strategy-active {
+  padding-top: 60px !important;
+}
+
 .strategy-div {
   padding-top: 60px !important;
 }
