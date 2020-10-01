@@ -1099,6 +1099,24 @@ img.img-responsive.man-img {
 }
 }
 
+@media only screen and (min-width: 360px) and (max-width: 410px) {
+  .strategy-box {
+    margin: 0px !important;
+    max-width: 150px !important;
+    min-width: 150px !important;
+    min-height: 150px !important;
+    max-height: 150px !important;
+    margin-left: 20px !important;
+}
+img.img-responsive.strategy-icons.center-box {
+  max-width: 85px;
+  min-width: 75px;
+  max-height: 75px;
+  min-height: 75px;
+  margin: 20px;
+}
+}
+
 
 @media only screen and (min-device-width: 1201px) and (max-device-width: 1439px) {
   img.banner-image.img-responsive {
