@@ -99,6 +99,11 @@ section.partner-section {
   transition: 0.25s ease-in-out;
 }
 
+img#ok-logo {
+  width: 200px;
+  padding-top: 20px;
+}
+
 /* Icon 3 */
 
 #nav-icon3 span:nth-child(1) {
@@ -291,7 +296,7 @@ h2.landing-h2 {
 }
 
 img.img-responsive.partner-logo {
-  width: 150px;
+  max-width: 150px;
 }
 
 .strategy-box {
@@ -1072,7 +1077,7 @@ img.img-responsive.footer-logo {
   }
   img.banner-image.img-responsive {
     position: relative;
-    bottom: 535px;
+    bottom: 509px;
     right: -55%;
     width: 600px;
   }
@@ -1203,7 +1208,7 @@ img.img-responsive.strategy-icons.center-box {
 @media only screen and (min-device-width: 1201px) and (max-device-width: 1439px) {
   img.banner-image.img-responsive {
     position: relative;
-    bottom: 535px;
+    bottom: 509px;
     right: -50%;
     width: 600px !important;
   }
