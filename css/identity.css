@@ -462,6 +462,32 @@ h2.landing-h2 {
   padding: 0px;
 }
 
+img.brand-image-main {
+    width: 500px;
+}
+
+.landing-h5 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+section.section.other-services {
+    background: #f0f0f0;
+    padding: 70px;
+}
+
+.learn-more-1 {
+    color: #474747;
+    border: 1px solid #474747;
+    padding: 20px 50px;
+    font-size: 18px;
+}
+
+.brand-main-p {
+    font-size: 22px;
+}
+
 .strategy-box-holder {
   text-align: center;
   /* border-right: 1px solid #00000021; */
