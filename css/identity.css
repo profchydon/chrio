@@ -7,9 +7,19 @@ html,
     color: #474747;
   }
 
-  .process-block {
+.process-block {
     text-align: center;
-    padding: 10px;
+    padding: 10px 45px;
+    border-right: 1px solid #47474761;
+    margin-right: -9px;
+}
+
+.process-block-last-child {
+    border-right: none;
+}
+
+.row.process-row .col-md-4 {
+    padding: 0px;
 }
 
 img.process-icon {
@@ -17,7 +27,7 @@ img.process-icon {
 }
 
 p.process-block-p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .process-block-below {
@@ -30,6 +40,10 @@ img.process-icon.icon-1 {
 
 .row.process-row {
     margin-top: 70px;
+}
+
+h4.landing-h4 {
+    font-weight: 600;
 }
 
 img.img-responsive.service-image3 {
@@ -445,7 +459,7 @@ h2.landing-h2 {
 }
 
 .section {
-  padding: 50px 0px;
+  padding: 0px;
 }
 
 .strategy-box-holder {
