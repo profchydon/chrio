@@ -1,50 +1,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;600;900&display=swap");
 
-* The side navigation menu */ .sidenav {
-  height: 100%;
-  /* 100% Full-height */
-  width: 0;
-  /* 0 width - change this with JavaScript */
-  position: fixed;
-  /* Stay in place */
-  z-index: 10;
-  /* Stay on top */
-  top: 0;
-  right: 0;
-  background-color: #ffe400;
-  /* Black*/
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  padding-top: 100px;
-  /* Place content 60px from the top */
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in the sidenav */
+p.nav-p {
+  font-size: 23px;
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
 }
 
+.nav-bottom.text-center {
+  padding-top: 150px;
+}
+
+.sidenav  a#navbar-brand {
+  left: -60px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 10;
+    top: 0;
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 50px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    /* text-align: center; */
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    background-image: url(../assets/images/Pattern1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+ 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 40px;
-  text-decoration: none;
-  font-size: 22px;
-  color: #363837;
-  display: block;
-  transition: 0.3s;
+    padding: 8px 8px 8px 40px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #363837;
+    display: block;
+    transition: 0.3s;
+    display: inline;
+    font-family: "Playfair Display", serif;
 }
-
+ 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover,
-.offcanvas a:focus {
-  color: #f1f1f1;
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
 }
-
+ 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
+
+
+ul.slide-ul {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.slide-nav {
+    position: absolute;
+    z-index: 1;
+    padding-left: 350px;
+    padding-top: 300px;
+}
+
+.slide-icon {
+    display: inline;
+    margin-right: 10px;
+    color: #000;
+}
+
+@media (max-width:768px){
+  .sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+}
+
 
 .active-nav {
   background: #ffe400 !important;
