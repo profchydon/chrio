@@ -290,9 +290,17 @@ footer {
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-  background: transparent;
+  background: #474747 !important;
   border: none;
   padding-top: 50px;
+}
+
+h2.landing-h2 {
+    color: #000;
+}
+
+p.landing-p {
+    color: #000;
 }
 
 img.logo {
@@ -455,9 +463,13 @@ label {
 }
 
 section.contact-us {
-  padding: 70px 0px;
-  background: #474747;
-  color: #fff;
+    padding: 70px 0px;
+    background: #fff;
+    color: #fff;
+}
+
+a#navbar-brand {
+    top: -15px;
 }
 
 img.banner-image.img-responsive {
