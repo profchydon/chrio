@@ -81,6 +81,14 @@ p.nav-p {
       color: #000;
   }
 
+  span.nav-vr {
+    border: 1px solid #363837;
+    width: 46px;
+    position: relative;
+    top: -6px;
+    right: -10px;
+}
+
 .section {
     padding-left: 90px !important;
     padding-right: 90px !important;
