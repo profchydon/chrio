@@ -5,13 +5,16 @@
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 10;
     top: 0;
     right: 0;
     background-color: #ffe400; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 100px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    
 }
  
 /* The navigation menu links */
@@ -22,6 +25,8 @@
     color: #363837;
     display: block;
     transition: 0.3s;
+    display: inline;
+    font-family: "Playfair Display", serif;
 }
  
 /* When you mouse over the navigation links, change their color */

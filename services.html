@@ -14,10 +14,27 @@
 <body>
 
     <div id="sideNavigation" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="#">Contact Us</a>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="navbar-brand" href="#" id="navbar-brand">
+                        <img src="./assets/images/chrio_logo.svg" class="nav-logo" alt="Chrio Logo" />
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class=" nav-bottom text-center">
+            <p class="nav-p">Interested in learning more? Check out</p>
+            <a href="index.html">Home</a>
+            <a href="services.html">Our Services</a>
+            <a href="services.html">Our Blog</a>
+            <a href="#">Contact Us</a>
+        </div>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
@@ -58,6 +75,7 @@
             <div class="container" id="strategy-container">
 
                 <div class="row" id="brand1">
+                    <img src="./assets/images/allure.png" alt="" class="img-responsive service-image3" />
                     <div class="col-md-6">
                         <h2 class="landing-h2">
                             Brand Identity
@@ -106,6 +124,7 @@
                 </div>
 
                 <div class="row" id="brand1">
+                    <img src="./assets/images/create.png" alt="" class="img-responsive service-image3" />
                     <div class="col-md-6">
                         <h2 class="landing-h2">
                             Creative & Digital
@@ -284,9 +303,9 @@
     </script>
     <script>
         $(document).ready(function () {
-            $("#nav-icon3").click(function () {
-                $(this).toggleClass("open");
-            });
+            // $("#nav-icon3").click(function () {
+            //     $(this).toggleClass("open");
+            // });
 
             $("#learn-more").on('click', function (event) {
                 event.preventDefault();
@@ -300,7 +319,7 @@
         });
 
         function openNav() {
-            document.getElementById("sideNavigation").style.width = "280px";
+            document.getElementById("sideNavigation").style.width = "100%";
             document.getElementById("main").style.marginLeft = "250px";
         }
 

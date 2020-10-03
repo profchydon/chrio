@@ -1,27 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;600;900&display=swap");
 
+img.img-responsive.service-image3 {
+  width: 300px !important;
+  max-width: 315px !important;
+  min-width: 315px !important;
+  right: 0px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+p.nav-p {
+  font-size: 23px;
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+}
+
+.nav-bottom.text-center {
+  padding-top: 150px;
+}
+
+.sidenav  a#navbar-brand {
+  left: -60px;
+}
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 10;
     top: 0;
     right: 0;
-    background-color: #ffe400; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 100px; /* Place content 60px from the top */
+    padding-top: 50px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    /* text-align: center; */
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    background-image: url(../assets/images/Pattern1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
 }
  
 /* The navigation menu links */
 .sidenav a {
     padding: 8px 8px 8px 40px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 40px;
     color: #363837;
     display: block;
     transition: 0.3s;
+    display: inline;
+    font-family: "Playfair Display", serif;
 }
  
 /* When you mouse over the navigation links, change their color */
@@ -610,6 +643,15 @@ img.img-responsive.footer-logo {
 }
 
 @media (max-width: 768px) {
+  img.img-responsive.service-image3 {
+    display: block;
+  }
+  img.img-responsive.service-image {
+    display: none;
+  }
+  div#brand1 {
+    margin-bottom: 0px;
+}
   section#landing-banner {
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -834,10 +876,10 @@ div#banner-div-7 {
 
   section.strategy-sectionn {
     position: relative;
-    margin-top: -80px;
+    margin-top: -130px;
     /* text-align: center; */
     padding: 0px;
-  }
+}
 
   .learn-more {
     font-size: 16px;
@@ -933,6 +975,18 @@ div#banner-div-7 {
   img.img-responsive.strategy-icons.center-box {
     margin-left: -35px !important;
   }
+  img.img-responsive.service-image3 {
+    width: 300px !important;
+    max-width: 260px !important;
+    min-width: 260px !important;
+    right: 0px;
+    margin-bottom: 20px;
+}
+img.img-responsive.service-image2 {
+  width: 300px !important;
+  max-width: 260px !important;
+  min-width: 260px !important;
+}
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
@@ -943,6 +997,7 @@ div#banner-div-7 {
     width: 260px !important;
     margin-bottom: 20px;
   }
+  
 
   h2.landing-h2 {
     font-size: 27px;
