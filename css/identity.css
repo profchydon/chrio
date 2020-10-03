@@ -6,97 +6,129 @@ html,
     overflow-x: hidden;
     color: #474747;
   }
-  
+
+  .process-block {
+    text-align: center;
+    padding: 10px;
+}
+
+img.process-icon {
+    width: 100px;
+}
+
+p.process-block-p {
+    font-size: 18px;
+}
+
+.process-block-below {
+    margin-top: 50px;
+}
+
+img.process-icon.icon-1 {
+    width: 115px;
+}
+
+.row.process-row {
+    margin-top: 70px;
+}
+
+img.img-responsive.service-image3 {
+  width: 300px !important;
+  max-width: 315px !important;
+  min-width: 315px !important;
+  right: 0px;
+  margin-bottom: 20px;
+  display: none;
+}
 p.nav-p {
-    font-size: 23px;
-    margin-bottom: 0px;
-    font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.nav-bottom.text-center {
+  padding-top: 150px;
+}
+
+.sidenav  a#navbar-brand {
+  left: -60px;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 10;
+    top: 0;
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 50px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    /* text-align: center; */
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    background-image: url(../assets/images/Pattern1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+ 
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 40px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #363837;
+    display: block;
+    transition: 0.3s;
+    display: inline;
+    font-family: "Playfair Display", serif;
+}
+ 
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+ 
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: -40px;
+  right: 25px;
+  font-size: 55px;
+  margin-left: 50px;
+}
+
+
+ul.slide-ul {
+    list-style-type: none;
+    font-size: 30px;
     font-weight: 500;
-  }
-  
-  .nav-bottom.text-center {
-    padding-top: 150px;
-  }
-  
-  .sidenav  a#navbar-brand {
-    left: -60px;
-  }
-  
-  /* The side navigation menu */
-  .sidenav {
-      height: 100%; /* 100% Full-height */
-      width: 0; /* 0 width - change this with JavaScript */
-      position: fixed; /* Stay in place */
-      z-index: 10;
-      top: 0;
-      right: 0;
-      overflow-x: hidden; /* Disable horizontal scroll */
-      padding-top: 50px; /* Place content 60px from the top */
-      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-      /* text-align: center; */
-      font-family: "Playfair Display", serif;
-      font-weight: 700;
-      background-image: url(../assets/images/Pattern1.svg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: bottom;
-      
-  }
-   
-  /* The navigation menu links */
-  .sidenav a {
-      padding: 8px 8px 8px 40px;
-      text-decoration: none;
-      font-size: 40px;
-      color: #363837;
-      display: block;
-      transition: 0.3s;
-      display: inline;
-      font-family: "Playfair Display", serif;
-  }
-   
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover, .offcanvas a:focus{
-      color: #f1f1f1;
-  }
-   
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
+}
+
+.slide-nav {
     position: absolute;
-    top: -40px;
-    right: 25px;
-    font-size: 55px;
-    margin-left: 50px;
-}
-  
-  
-  ul.slide-ul {
-      list-style-type: none;
-      font-size: 30px;
-      font-weight: 500;
-  }
-  
-  .slide-nav {
-      position: absolute;
-      z-index: 1;
-      padding-left: 350px;
-      padding-top: 300px;
-  }
-  
-  .slide-icon {
-      display: inline;
-      margin-right: 10px;
-      color: #000;
-  }
-
-  span.nav-vr {
-    border: 1px solid #363837;
-    width: 46px;
-    position: relative;
-    top: -6px;
-    right: -10px;
+    z-index: 1;
+    padding-left: 350px;
+    padding-top: 300px;
 }
 
+.slide-icon {
+    display: inline;
+    margin-right: 10px;
+    color: #000;
+}
+
+span.nav-vr {
+  border: 1px solid #363837;
+  width: 46px;
+  position: relative;
+  top: -6px;
+  right: -10px;
+}
 .section {
     padding-left: 90px !important;
     padding-right: 90px !important;
@@ -288,7 +320,7 @@ h5 {
 }
 
 .landing-banner {
-    background-image: url(../assets/images/service-banner.png);
+    background-image: url(../assets/images/identity_banner.png);
     position: relative;
     background-position: inherit;
     background-repeat: no-repeat;
@@ -305,6 +337,20 @@ h5 {
 
 .landing-p1 {
   font-size: 20px;
+}
+
+p.brand-p {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.brand-row .col-md-6 {
+    padding: 0px;
+}
+
+.row.brand-row {
+    padding-top: 20px !important;
 }
 
 footer {
@@ -329,17 +375,9 @@ footer {
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-  background: #474747 !important;
+  background: transparent;
   border: none;
   padding-top: 50px;
-}
-
-h2.landing-h2 {
-    color: #000;
-}
-
-p.landing-p {
-    color: #000;
 }
 
 img.logo {
@@ -395,6 +433,11 @@ h2.landing-h2 {
   font-size: 50px;
   font-weight: 900;
 }
+
+.landing-h3 {
+    font-size: 28px;
+    font-weight: 600;
+  }
 
 .learn-more.no-border {
   border: none;
@@ -502,13 +545,9 @@ label {
 }
 
 section.contact-us {
-    padding: 70px 0px;
-    background: #fff;
-    color: #fff;
-}
-
-a#navbar-brand {
-    top: -15px;
+  padding: 70px 0px;
+  background: #474747;
+  color: #fff;
 }
 
 img.banner-image.img-responsive {
@@ -657,10 +696,20 @@ img.img-responsive.footer-logo {
   body {
     max-width: 100%;
     overflow-x: hidden;
+    color: #474747;
   }
 }
 
 @media (max-width: 768px) {
+  img.img-responsive.service-image3 {
+    display: block;
+  }
+  img.img-responsive.service-image {
+    display: none;
+  }
+  div#brand1 {
+    margin-bottom: 0px;
+}
   section#landing-banner {
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -668,11 +717,19 @@ img.img-responsive.footer-logo {
     height: 420px;
 }
 img.img-responsive.service-image2 {
-  width: 315px !important;
+  width: 300px !important;
   position: relative;
   left: 0%;
-  max-width: 315px;
-  min-width: 315px;
+  max-width: 300px;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+img.img-responsive.service-image3 {
+  width: 300px !important;
+  position: relative;
+  right: -8px;
+  max-width: 300px;
+  min-width: 300px;
   margin-bottom: 20px;
 }
 div#banner-div-7 {
@@ -702,8 +759,8 @@ div#banner-div-7 {
     height: 200px !important;
   }
   .video-frame {
-    padding-top: 70px;
-  }
+    padding-top: 40px;
+}
 
   .navbar-brand {
     position: relative;
@@ -885,10 +942,10 @@ div#banner-div-7 {
 
   section.strategy-sectionn {
     position: relative;
-    margin-top: -80px;
+    margin-top: -130px;
     /* text-align: center; */
     padding: 0px;
-  }
+}
 
   .learn-more {
     font-size: 16px;
@@ -984,7 +1041,57 @@ div#banner-div-7 {
   img.img-responsive.strategy-icons.center-box {
     margin-left: -35px !important;
   }
+  img.img-responsive.service-image3 {
+    width: 300px !important;
+    max-width: 260px !important;
+    min-width: 260px !important;
+    right: -15px;
+    margin-bottom: 20px;
 }
+img.img-responsive.service-image2 {
+  width: 300px !important;
+  max-width: 260px !important;
+  min-width: 260px !important;
+}
+}
+
+@media (max-width: 375px) {
+  img.img-responsive.service-image3 {
+    width: 300px !important;
+    max-width: 325px !important;
+    min-width: 325px !important;
+    right: -10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  img.img-responsive.service-image2 {
+    width: 300px !important;
+    max-width: 325px !important;
+    min-width: 325px !important;
+    display: block;
+  }
+}
+
+@media (max-width: 414px) and (min-width:376px) {
+  img.img-responsive.service-image3 {
+    width: 300px !important;
+    max-width: 365px !important;
+    min-width: 365px !important;
+    right: -10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  img.img-responsive.service-image2 {
+    width: 300px !important;
+    max-width: 355px !important;
+    min-width: 355px !important;
+    display: block;
+  }
+}
+
+
 
 /* ----------- iPhone 4 and 4S ----------- */
 
@@ -994,6 +1101,7 @@ div#banner-div-7 {
     width: 260px !important;
     margin-bottom: 20px;
   }
+  
 
   h2.landing-h2 {
     font-size: 27px;
@@ -1198,6 +1306,9 @@ div#banner-div-7 {
     right: -45% !important;
     width: 400px !important;
   }
+  div#strategy-container {
+    padding-top: 50px;
+}
 }
 
 /* Smartphones (portrait) ----------- */
