@@ -91,6 +91,15 @@ ul.slide-ul {
     color: #000;
 }
 
+@media (max-width:768px){
+  .sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+}
+
 .section {
     padding-left: 90px !important;
     padding-right: 90px !important;
@@ -659,11 +668,19 @@ img.img-responsive.footer-logo {
     height: 420px;
 }
 img.img-responsive.service-image2 {
-  width: 315px !important;
+  width: 300px !important;
   position: relative;
   left: 0%;
-  max-width: 315px;
-  min-width: 315px;
+  max-width: 300px;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+img.img-responsive.service-image3 {
+  width: 300px !important;
+  position: relative;
+  right: -8px;
+  max-width: 300px;
+  min-width: 300px;
   margin-bottom: 20px;
 }
 div#banner-div-7 {
@@ -693,8 +710,8 @@ div#banner-div-7 {
     height: 200px !important;
   }
   .video-frame {
-    padding-top: 70px;
-  }
+    padding-top: 40px;
+}
 
   .navbar-brand {
     position: relative;
@@ -979,7 +996,7 @@ div#banner-div-7 {
     width: 300px !important;
     max-width: 260px !important;
     min-width: 260px !important;
-    right: 0px;
+    right: -15px;
     margin-bottom: 20px;
 }
 img.img-responsive.service-image2 {
@@ -988,6 +1005,44 @@ img.img-responsive.service-image2 {
   min-width: 260px !important;
 }
 }
+
+@media (max-width: 375px) {
+  img.img-responsive.service-image3 {
+    width: 300px !important;
+    max-width: 325px !important;
+    min-width: 325px !important;
+    right: -10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  img.img-responsive.service-image2 {
+    width: 300px !important;
+    max-width: 325px !important;
+    min-width: 325px !important;
+    display: block;
+  }
+}
+
+@media (max-width: 414px) and (min-width:376px) {
+  img.img-responsive.service-image3 {
+    width: 300px !important;
+    max-width: 365px !important;
+    min-width: 365px !important;
+    right: -10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  img.img-responsive.service-image2 {
+    width: 300px !important;
+    max-width: 355px !important;
+    min-width: 355px !important;
+    display: block;
+  }
+}
+
+
 
 /* ----------- iPhone 4 and 4S ----------- */
 
@@ -1202,6 +1257,9 @@ img.img-responsive.service-image2 {
     right: -45% !important;
     width: 400px !important;
   }
+  div#strategy-container {
+    padding-top: 50px;
+}
 }
 
 /* Smartphones (portrait) ----------- */
