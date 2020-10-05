@@ -1659,4 +1659,10 @@ img.img-responsive.strategy-icons.center-box {
   .nav-bottom.text-center {
     padding-top: 50px;
   }
+  .sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+  }
   }
