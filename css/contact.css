@@ -6,7 +6,7 @@ html,
     overflow-x: hidden;
     color: #474747;
   }
-  
+
 p.nav-p {
     font-size: 23px;
     margin-bottom: 0px;
@@ -1625,3 +1625,38 @@ img.img-responsive.strategy-icons.center-box {
     padding: 10px 20px 0px 20px;
   }
 }
+
+
+/* Menu mobile */
+@media (max-width: 768px){
+    span.nav-vr {
+      display: none;
+  }
+  .sidenav .col-sm-6.col-xs-6.col-md-6 {
+    width: 50%;
+    padding: 0px 55px;
+  }
+  img.nav-logo {
+    width: 100px;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: -20px;
+    right: 0%;
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  .nav-bottom.text-center {
+    padding-top: 50px;
+  }
+  p.nav-p {
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 0px 10px;
+  }
+  .nav-bottom.text-center {
+    padding-top: 50px;
+  }
+  }

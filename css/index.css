@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;600;900&display=swap");
 
+
+
+
 html,
   body {
     max-width: 100%;
@@ -1590,4 +1593,45 @@ img.img-responsive.footer-logo {
     font-weight: 600;
     padding: 10px 20px 0px 20px;
   }
+}
+
+
+/* Menu mobile */
+@media (max-width: 768px){
+  span.nav-vr {
+    display: none;
+}
+.sidenav .col-sm-6.col-xs-6.col-md-6 {
+  width: 50%;
+  padding: 0px 55px;
+}
+img.nav-logo {
+  width: 100px;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: -20px;
+  right: 0%;
+  font-size: 40px;
+  margin-left: 50px;
+}
+.nav-bottom.text-center {
+  padding-top: 50px;
+}
+p.nav-p {
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 0px 10px;
+}
+.nav-bottom.text-center {
+  padding-top: 50px;
+}
+.sidenav a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
 }
