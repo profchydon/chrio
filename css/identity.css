@@ -27,7 +27,7 @@ img.process-icon {
 }
 
 p.process-block-p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .process-block-below {
@@ -310,6 +310,14 @@ h5 {
   font-family: "Playfair Display", serif;
 }
 
+.navicon-black span{
+  background: #232323d9 !important;
+}
+
+img.brand-image-main.ux-image {
+  width: 455px;
+}
+
 .landing-h1 {
     font-size: 50px;
     font-weight: 900;
@@ -345,6 +353,42 @@ h5 {
     /* background: #292929; */
 }
 
+.landing-banner-product {
+  background-image: url(../assets/images/product_banner.png);
+  position: relative;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -125px;
+  padding-top: 200px;
+  height: 700px;
+  /* background: #292929; */
+}
+
+.landing-banner-create {
+  background-image: url(../assets/images/create.png);
+  position: relative;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -125px;
+  padding-top: 200px;
+  height: 700px;
+  /* background: #292929; */
+}
+
+.landing-banner-engineering {
+  background-image: url(../assets/images/engineering_header.png);
+  position: relative;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -125px;
+  padding-top: 200px;
+  height: 700px;
+  /* background: #292929; */
+}
+
 /* .container {
   margin: 0px 100px;
 } */
@@ -355,16 +399,26 @@ h5 {
 
 p.brand-p {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 15px;
     font-weight: 600;
 }
 
-.brand-row .col-md-6 {
+.identity-brand-p .brand-p {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.brand-row .col-md-6, .brand-row .col-md-12 {
     padding: 0px;
 }
 
 .row.brand-row {
     padding-top: 20px !important;
+}
+
+#engineering-bottom{
+  width: 100%;
 }
 
 footer {
@@ -491,8 +545,9 @@ section.section.other-services {
     transition: 0.4s;
   }
 
-.brand-main-p {
-    font-size: 22px;
+  .brand-main-p {
+    font-size: 18px;
+    color: #474747ad;
 }
 
 .strategy-box-holder {
@@ -769,8 +824,12 @@ img.img-responsive.footer-logo {
     img.brand-image-main {
         width: 100%;
     }
+    img.brand-image-main.ux-image {
+      width: 100%;
+  }
     .brand-main-p {
         font-size: 16px;
+        margin-bottom: 40px;
     }
     .landing-h5 {
         font-weight: 600;
