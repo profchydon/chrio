@@ -700,7 +700,7 @@ img.img-responsive.footer-logo {
   section#landing-banner {
     padding-left: 20px !important;
     padding-right: 20px !important;
-    text-align: center;
+    text-align: left;
     height: 420px;
 }
 img.img-responsive.service-image2 {
@@ -936,7 +936,7 @@ div#banner-div-7 {
 
   .learn-more {
     font-size: 16px;
-    color: #000;
+    color: #474747;
     font-weight: 500;
     position: relative;
     top: 25px;
