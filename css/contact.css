@@ -50,7 +50,7 @@ p.nav-p {
    
   /* The navigation menu links */
   .sidenav a {
-      padding: 8px 8px 8px 40px;
+      padding: 2px 30px;
       text-decoration: none;
       font-size: 40px;
       color: #363837;
@@ -58,7 +58,15 @@ p.nav-p {
       transition: 0.3s;
       display: inline;
       font-family: "Playfair Display", serif;
+      /* margin: 0px 20px; */
   }
+
+  /* .sidenav a:hover {
+    text-decoration: none;
+    background: #474747;
+    color: #ffe600;
+    transition: 0.4s;
+  } */
    
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover, .offcanvas a:focus{
