@@ -16,18 +16,18 @@ $message = $_POST['message'];
 $country = $_POST['country'];
 
 if(trim($name) == '') {
-	echo '<div class="error_message">Attention! You must enter your name.</div>';
+	echo '<div id="contact-error" role="alert">Attention! Please enter your full name.</div>';
 	exit();
 } else if(trim($email) == '') {
-	echo '<div class="error_message">Attention! Please enter a valid email address.</div>';
+	echo '<div id="contact-error" role="alert">Attention! Please enter an email address.</div>';
 	exit();
 } else if(!isEmail($email)) {
-	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
+	echo '<div id="contact-error" role="alert">Attention! You have enter an invalid e-mail address, try again.</div>';
 	exit();
 }
 
 if(trim($message) == '') {
-	echo '<div class="error_message">Attention! Please enter your message.</div>';
+	echo '<div id="contact-error" role="alert">Attention! Please enter your message.</div>';
 	exit();
 }
 
@@ -69,17 +69,10 @@ $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 if(mail($address, $e_subject, $msg, $headers)) {
 
-	// Email has sent successfully, echo a success page.
-
-	echo "<fieldset>";
-	echo "<div id='success_page'>";
-	echo "<h1>Email Sent Successfully.</h1>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
-	echo "</div>";
-	echo "</fieldset>";
+	echo '<div id="contact-success" role="alert">Thank you for contacting us. We will reach out to you shortly.</div>';
 
 } else {
 
-	echo 'ERROR!';
+	echo "Sorry! There was an error sending your message. Please try again";
 
 }

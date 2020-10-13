@@ -17,13 +17,18 @@ function submitForm(){
         url: "action.php",
         data: "name=" + name + "&email=" + email + "&message=" + message + "&company=" + company + "&country=" + country,
         success : function(text){
-            console.log(text);
+            $("#submit").css({"border-color": "#474747", "background": "#474747", "color": "#ffe600"});
+            $("#contact-message").empty();
+            $("#contact-message").append(text);
         },
         error: function (error) {
-            console.log(error);
+            $("#contact-message").empty();
+            $("#contact-message").append(error);
         }
     });
 }
+
+
 function formSuccess(){
     $( "#msgSubmit" ).removeClass( "hidden" );
 }
