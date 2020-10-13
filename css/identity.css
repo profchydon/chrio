@@ -94,6 +94,10 @@ p.nav-p {
     background-position: bottom;
     
 }
+
+img.nav-logo {
+  width: 130px;
+}
  
 /* The navigation menu links */
 .sidenav a {
@@ -115,7 +119,7 @@ p.nav-p {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 25px;
   font-size: 35px;
   font-weight: bolder;

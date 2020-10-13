@@ -30,6 +30,10 @@ p.nav-p {
   padding-top: 170px;
 }
 
+img.nav-logo {
+  width: 130px;
+}
+
 .sidenav  a#navbar-brand {
   left: -60px;
 }
@@ -75,7 +79,7 @@ p.nav-p {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 25px;
   font-size: 35px;
   font-weight: bolder;
@@ -259,6 +263,7 @@ h5 {
 .landing-h1 {
   font-size: 50px;
   font-weight: 900;
+  color: #000;
 }
 
 .landing-p {
@@ -332,6 +337,15 @@ i.fa.fa-long-arrow-right {
   display: none;
 }
 
+#landing-banner  .learn-more {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  border: 1px solid #000;
+  padding: 15px 20px;
+  z-index: 1;
+}
+
 .learn-more {
   font-size: 20px;
   color: #474747;
@@ -341,7 +355,7 @@ i.fa.fa-long-arrow-right {
   z-index: 1;
 }
 
-.learn-more:hover {
+.learn-more:hover, #landing-banner  .learn-more:hover {
   text-decoration: none;
   background: #474747;
   color: #ffe600;
