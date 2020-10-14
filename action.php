@@ -40,7 +40,7 @@ if(get_magic_quotes_gpc()) {
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
 
-$address = "profchydon@gmail.com";
+$address = "chibuikem@chriocreative.studio";
 
 
 // Configuration option.
@@ -67,6 +67,7 @@ $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
+mail("contact@chriocreative.studio", $e_subject, $msg, $headers);
 if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo '<div id="contact-success" role="alert">Thank you for contacting us. We will reach out to you shortly.</div>';
