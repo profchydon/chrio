@@ -1195,6 +1195,14 @@ img.img-responsive.footer-logo {
     right: -45% !important;
     width: 400px !important;
   }
+  #landing-banner .learn-more {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    border: 1px solid #000;
+    padding: 15px 20px;
+    z-index: 1;
+  }
 }
 
 /* Smartphones (portrait) ----------- */
@@ -1443,6 +1451,34 @@ img.img-responsive.footer-logo {
 
 }
 
+@media only screen and (min-device-width: 840px) and (max-device-width: 1199px) {
+  .navbar-brand {
+    position: relative;
+    left: 0%;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    z-index: 1;
+}
+img.banner-image.img-responsive {
+  position: relative;
+  bottom: 500px;
+  right: -430px;
+  width: 591px;
+}
+#nav-icon3 {
+  z-index: 1;
+  left: 100%;
+}
+img.img-responsive.man-img {
+  width: 400px;
+}
+}
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .img.banner-image.img-responsive {
@@ -1671,10 +1707,10 @@ img.nav-logo {
   width: 100px;
 }
 .sidenav .closebtn {
-  position: absolute;
+    position: absolute;
     top: 0px;
     right: 3%;
-    font-size: 35px;
+    font-size: 37px;
     margin-left: 50px;
 }
 .nav-bottom.text-center {

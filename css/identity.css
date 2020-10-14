@@ -842,6 +842,17 @@ img.img-responsive.footer-logo {
 }
 
 @media (max-width: 768px) {
+  .landing-banner-engineering {
+    background-image: url(../assets/images/engineering_header.png);
+    position: relative;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -125px;
+    padding-top: 200px;
+    height: 700px;
+    /* background: #292929; */
+}
     .our-process-section{
         margin-top: -30px !important;
     }
